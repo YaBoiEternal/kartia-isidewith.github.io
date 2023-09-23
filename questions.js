@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "Corporations are less Corrupt than Governments.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -9,7 +9,25 @@ questions = [
         }
     },
     {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
+        "question": "The Government should intervene in the Economy and Market.",
+        "effect": {
+            "econ": 15,
+            "dipl": 0,
+            "govt": -5,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Money and Business help People achieve their Biggest of dreams.",
+        "effect": {
+            "econ": -5,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Welfare has higher Priority than Profit",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -18,38 +36,20 @@ questions = [
         }
     },
     {
-        "question": "The freer the markets, the freer the people.",
+        "question": "Healthcare and Education should be Privatized",
         "effect": {
-            "econ": -10,
+            "econ": -15,
             "dipl": 0,
             "govt": 0,
             "scty": 0
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "question": "Wages are too low for the poor, and Taxes are too low for the rich.",
         "effect": {
-            "econ": -10,
+            "econ": 15,
             "dipl": 0,
             "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Tariffs on international trade are important to encourage local production.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": -10,
             "scty": 0
         }
     },
@@ -59,61 +59,34 @@ questions = [
             "econ": 10,
             "dipl": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 5
         }
     },
     {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
+        "question": "Economic or Non-Economic Inheritance is a legitimate form of power.",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Taxes should be increased on the rich to provide for the poor.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Inheritance is a legitimate form of wealth.",
-        "effect": {
-            "econ": -10,
+            "econ": -5,
             "dipl": 0,
             "govt": 0,
             "scty": -5
         }
     },
     {
-        "question": "Basic utilities like roads and electricity should be publicly owned.",
+        "question": "People nowadays are more divided by Class than Nationality",
         "effect": {
-            "econ": 10,
+            "econ": 5,
             "dipl": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 10
         }
     },
     {
-        "question": "Government intervention is a threat to the economy.",
+        "question": "People who choose not to work should expect less Help from Society.",
         "effect": {
-            "econ": -10,
+            "econ": 15,
             "dipl": 0,
             "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Those with a greater ability to pay should receive better healthcare.",
-        "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "scty": 5
         }
     },
     {
@@ -122,13 +95,13 @@ questions = [
             "econ": 10,
             "dipl": 0,
             "govt": 0,
-            "scty": 5
+            "scty": 10
         }
     },
     {
         "question": "The means of production should belong to the workers who use them.",
         "effect": {
-            "econ": 10,
+            "econ": 15,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -144,7 +117,7 @@ questions = [
         }
     },
     {
-        "question": "Military action by our nation is often necessary to protect it.",
+        "question": "Illegal Military action by our nation is often necessary to protect the World.",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -153,29 +126,20 @@ questions = [
         }
     },
     {
-        "question": "I support regional unions, such as the European Union.",
-        "effect": {
-            "econ": -5,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 5
-        }
-    },
-    {
-        "question": "It is important to maintain our national sovereignty.",
+        "question": "It is important to maintain our national sovereignty and not join any Alliances.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": -15,
             "govt": -5,
             "scty": 0
         }
     },
     {
-        "question": "A united world government would be beneficial to mankind.",
+        "question": "Security needs to be installed in a lot of places, so terror could be stopped.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
-            "govt": 0,
+            "dipl": -10,
+            "govt": 15,
             "scty": 0
         }
     },
@@ -192,7 +156,7 @@ questions = [
         "question": "Wars do not need to be justified to other countries.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": -15,
             "govt": -10,
             "scty": 0
         }
@@ -200,8 +164,8 @@ questions = [
     {
         "question": "Military spending is a waste of money.",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
+            "econ": 5,
+            "dipl": 1,
             "govt": 10,
             "scty": 0
         }
@@ -212,33 +176,15 @@ questions = [
             "econ": -5,
             "dipl": -10,
             "govt": 0,
-            "scty": 0
+            "scty": -10
         }
     },
     {
         "question": "My nation is great.",
         "effect": {
             "econ": 0,
-            "dipl": -10,
+            "dipl": -15,
             "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Research should be conducted on an international scale.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Governments should be accountable to the international community.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 5,
             "scty": 0
         }
     },
@@ -248,6 +194,15 @@ questions = [
             "econ": 0,
             "dipl": 5,
             "govt": -5,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Most Politicians currently that are currently involved in Politics are corrupt and greedy.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -15,
             "scty": 0
         }
     },
@@ -266,7 +221,7 @@ questions = [
             "econ": 0,
             "dipl": -10,
             "govt": -5,
-            "scty": 0
+            "scty": -5
         }
     },
     {
